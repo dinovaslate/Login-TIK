@@ -33,7 +33,7 @@
     transform: translateY(-50%);
     box-shadow: 0 0 0.7rem 3px rgba(0, 0, 0, 0.2);
     padding: 1.5rem;
-    width: min(500px, 90vw);
+    width: min(500px, 80vw);
   }
   form {
     font-family: "Poppins";
@@ -166,5 +166,40 @@
   .d-none {
     display: none !important;
   }
+@media (max-width:480px) {
+    body{
+        overflow-y: hidden !important;
+    }
+}
+  @media (max-height:980px){
 
-  
+    .part-2{
+        position: fixed !important;
+        inset: 0 0 0 auto;
+    }
+    body{
+        height: 120vh;
+    }
+}
+  @media (max-height:880px) {
+
+      .part-2{
+          position: fixed !important;
+          inset: 0 0 0 auto;
+      }
+      body{
+          height: 130vh;
+      }
+  }
+  @media (max-height:780px) {
+    .center{
+        top: 90vh;
+    }
+    .part-2{
+        position: fixed !important;
+        inset: 0 0 0 auto;
+    }
+    body{
+        height: 150vh;
+    }
+}
