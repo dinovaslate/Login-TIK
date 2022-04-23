@@ -1,0 +1,144 @@
+*:not(.font-inherit) {
+    font-family: "Poppins";
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+  html {
+    font-family: "Poppins";
+  }
+  body {
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 3px 3px black;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  li {
+    display: inline-block;
+    padding-right: 20px;
+  }
+  .center {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 0.7rem 3px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    width: min(500px, 90vw);
+  }
+  form {
+    font-family: "Poppins";
+    width: 100%;
+  }
+  .container1 {
+    padding: 1rem;
+  }
+  .input{
+    margin-block-start: 0.5rem;
+    margin-block-end: 1rem;
+  }
+  .input-group{
+    position: relative;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  .gap-1{
+    gap: 5px;
+  }
+  .label{
+    font-weight: 600;
+    margin-inline-start: 1px;
+    
+  }
+  .mt-1{
+    margin-block-start: 1.8rem !important;
+  }
+  .input-group-text{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .absolute-right{
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    background-color: #fff;
+    padding: 5px;
+  }
+  input:not([type="checkbox"]) {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-family: 'Poppins' !important;
+    -webkit-transition: width 0.35s ease-in-out;
+    transition: width 0.35s ease-in-out;
+  }
+  .search-bar{
+    font-size: 0.8rem !important;
+  }
+  input[type="password"] {
+    -webkit-transition: width 0.35s ease-in-out;
+    transition: width 0.35s ease-in-out;
+  }
+  .invalid{
+    border: 2px solid red;
+  }
+  .parts{
+    flex-shrink: 0;
+    width: 50%;
+    height: 100vh;
+  }
+  .part-2{
+    background-color: rgb(154, 154, 154);
+    position: relative;
+  }
+  .merah {
+    color: red;
+  }
+  .button{
+    padding: 0.7rem 1.2rem !important;
+    font-size: 15px;
+    width: 100% !important;
+  }
+  .big-label{
+    background-color: #565656;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0.9rem 1.4rem;
+    position: absolute;
+    top:-1.7rem;
+    width: fit-content;
+  }
+  form{
+    padding-top: 1.5rem !important;
+  }
+  .logo{
+    max-width: 6rem;
+    filter: invert(98%);
+    position: absolute;
+    left: 20px;
+    top: 10rem;
+  }
+
+  @media (max-height:980px) {
+    .center{
+        top: 50vh;
+        transform: translateY(-50%);
+    }
+
+}
+  @media (max-height:740px) {
+    .center{
+        top: 60vh;
+    }
+
+}
